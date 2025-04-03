@@ -98,8 +98,8 @@ on the top left corner. */
 "s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
 "s01s41" //Turn on middle of 0
 
-"s04s05s06s24s25s26s44s45s46" //Set rows of 6
-"s14s34s36" //Set three supporting squares of 6
+"s04s14s24s34s44s26s36s46" //Set left and right columns of 6
+"s25s45" //Set two supporting squares of 6
 
 "wfff" //Wait until next command
 
@@ -157,7 +157,7 @@ on the top left corner. */
 "s41s42s43" //Set 2nd row of 1
 "s01s21s31" //Set middle column of 1
 
-"s04s14s24s34s44s06s16s26s36s46" //Turn on columns of 2nd 0
-"s05s45" //Turn on middle of 2nd 0
+"s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
+"s05s45" //Turn on middle column of 0
 
 "wfff" //Keep displaying 10 until blinker is turned off
