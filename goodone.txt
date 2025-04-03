@@ -2,317 +2,642 @@
 left->right direction and in the up->down direction,
 when the board is orientated so that the TUT logo is
 on the top left corner. */
-
 "e00a" //Set all LEDs off initially
-
 "x" //Wait for input before first number
-
-
 // "00"
 "e0f" //Set max brightness
-
 "s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 1st 0
 "s01s41" //Turn on middle of 1st 0
-
 "s04s14s24s34s44s06s16s26s36s46" //Turn on columns of 2nd 0
 "s05s45" //Turn on middle of 2nd 0
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
-
 // "01"
 "e0f" //Set max brightness
-
 "s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
 "s01s41" //Turn on middle of 0
-
 "s14s15s44s45s46" //Turn on rows of 1
 "s05s25s35" //Turn on main column of 1
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
-
 // "02"
 "e0f" //Set max brightness
-
 "s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
 "s01s41" //Turn on middle of 0
-
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
 "s34s16" //Turn on two other squares of 2
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
-
 // "03"
 "e0f" //Set max brightness
-
 "s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
 "s01s41" //Turn on middle of 0
-
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
 "s16s36" //Turn on supporting column of 3
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
-
 // "04"
 "e0f" //Set max brightness
-
 "s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
 "s01s41" //Turn on middle of 0
-
 "s04s14s24s06s16s26s36s46" //Set columns of 4
 "s25" //Set middle square of 4
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
-
 // "05"
 "e0f" //Set max brightness
-
 "s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
 "s01s41" //Turn on middle of 0
-
 "s04s05s06s24s25s26s44s45s46" //Set rows of 5
 "s14s36" //Set two supporting squares of 5
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
-
 // "06"
 "e0f" //Set max brightness
-
 "s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
 "s01s41" //Turn on middle of 0
-
 "s04s14s24s34s44s26s36s46" //Set left and right columns of 6
 "s25s45" //Set two supporting squares of 6
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
-
 // "07"
 "e0f" //Set max brightness
-
 "s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
 "s01s41" //Turn on middle of 0
-
 "s04s34s44" //1st column of 7
 "s05s25" //2nd column of 7
 "s06s16" //3rd column of 7
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
-
 // "08"
 "e0f" //Set max brightness
-
 "s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
 "s01s41" //Turn on middle of 0
-
 "s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
 "s05s25s45" //Set middle column of 8
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
-
 // "09"
 "e0f" //Set max brightness
-
 "s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
 "s01s41" //Turn on middle of 0
-
 "s04s14s24" //Set 1st column of 9
 "s05s25" //Set 2nd column of 9
 "s06s16s26s36s46" //Set 3rd column of 9
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
-
 // "10"
 "e0f" //Set max brightness
-
 "s10s11" //Set 1st row of 1
-"s41s42s43" //Set 2nd row of 1
+"s40s41s42" //Set 2nd row of 1
 "s01s21s31" //Set middle column of 1
-
 "s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
 "s05s45" //Turn on middle column of 0
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
 // "11"
 "e0f" //Set max brightness
-
 "s10s11" //Set 1st row of 1
-"s41s42s43" //Set 2nd row of 1
+"s40s41s42" //Set 2nd row of 1
 "s01s21s31" //Set middle column of 1
-
 "s14s15s44s45s46" //Turn on rows of 1
 "s05s25s35" //Turn on main column of 1
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
- // "12"
+// "12"
 "e0f" //Set max brightness
-
 "s10s11" //Set 1st row of 1
-"s41s42s43" //Set 2nd row of 1
+"s40s41s42" //Set 2nd row of 1
 "s01s21s31" //Set middle column of 1
-
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
 "s34s16" //Turn on two other squares of 2
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
- // "13"
+// "13"
 "e0f" //Set max brightness
-
 "s10s11" //Set 1st row of 1
-"s41s42s43" //Set 2nd row of 1
+"s40s41s42" //Set 2nd row of 1
 "s01s21s31" //Set middle column of 1
-
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
 "s16s36" //Turn on supporting column of 3
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
- // "14"
+// "14"
 "e0f" //Set max brightness
-
 "s10s11" //Set 1st row of 1
-"s41s42s43" //Set 2nd row of 1
+"s40s41s42" //Set 2nd row of 1
 "s01s21s31" //Set middle column of 1
-
 "s04s14s24s06s16s26s36s46" //Set columns of 4
 "s25" //Set middle square of 4
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
-
- // "15"
+// "15"
 "e0f" //Set max brightness
-
 "s10s11" //Set 1st row of 1
-"s41s42s43" //Set 2nd row of 1
+"s40s41s42" //Set 2nd row of 1
 "s01s21s31" //Set middle column of 1
-
 "s04s05s06s24s25s26s44s45s46" //Set rows of 5
 "s14s36" //Set two supporting squares of 5
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
- // "16"
+// "16"
 "e0f" //Set max brightness
-
 "s10s11" //Set 1st row of 1
-"s41s42s43" //Set 2nd row of 1
+"s40s41s42" //Set 2nd row of 1
 "s01s21s31" //Set middle column of 1
-
 "s04s14s24s34s44s26s36s46" //Set left and right columns of 6
 "s25s45" //Set two supporting squares of 6
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
- // "17"
+// "17"
 "e0f" //Set max brightness
-
 "s10s11" //Set 1st row of 1
-"s41s42s43" //Set 2nd row of 1
+"s40s41s42" //Set 2nd row of 1
 "s01s21s31" //Set middle column of 1
-
 "s04s34s44" //1st column of 7
 "s05s25" //2nd column of 7
 "s06s16" //3rd column of 7
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
- // "18"
+// "18"
 "e0f" //Set max brightness
-
 "s10s11" //Set 1st row of 1
-"s41s42s43" //Set 2nd row of 1
+"s40s41s42" //Set 2nd row of 1
 "s01s21s31" //Set middle column of 1
-
 "s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
 "s05s25s45" //Set middle column of 8
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
- // "19"
+// "19"
 "e0f" //Set max brightness
-
 "s10s11" //Set 1st row of 1
-"s41s42s43" //Set 2nd row of 1
+"s40s41s42" //Set 2nd row of 1
 "s01s21s31" //Set middle column of 1
-
 "s04s14s24" //Set 1st column of 9
 "s05s25" //Set 2nd column of 9
 "s06s16s26s36s46" //Set 3rd column of 9
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
- // "20"
+// "20"
 "e0f" //Set max brightness
-
-“s00s01s02s20s21s22s40s41s42” //Set rows of 2
-“s30s12” //Set two supporting blocks of 2
-
+"s00s01s02s20s21s22s40s41s42" //Set rows of 2
+"s30s12" //Set two supporting blocks of 2
 "s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
 "s05s45" //Turn on middle column of 0
-
 "wfff" //Wait until next command
-
 "x" //Input to continue
-
- // "21"
+// "21"
 "e0f" //Set max brightness
-
-“s00s01s02s20s21s22s40s41s42” //Set rows of 2
-“s30s12” //Set two supporting blocks of 2
-
+"s00s01s02s20s21s22s40s41s42" //Set rows of 2
+"s30s12" //Set two supporting blocks of 2
 "s14s15s44s45s46" //Turn on rows of 1
 "s05s25s35" //Turn on main column of 1
-
+"wfff" //Wait until next command
+"x" //Input to continue
+// "22"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 2
+"s30s12" //Set two supporting blocks of 2
+"s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
+"s34s16" //Turn on two other squares of 2
+"wfff" //Wait until next command
+"x" //Input to continue
+// "23"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 2
+"s30s12" //Set two supporting blocks of 2
+"s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
+"s16s36" //Turn on supporting column of 3
+"wfff" //Wait until next command
+"x" //Input to continue
+// "24"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 2
+"s30s12" //Set two supporting blocks of 2
+"s04s14s24s06s16s26s36s46" //Set columns of 4
+"s25" //Set middle square of 4
+"wfff" //Wait until next command
+"x" //Input to continue
+// "25"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 2
+"s30s12" //Set two supporting blocks of 2
+"s04s05s06s24s25s26s44s45s46" //Set rows of 5
+"s14s36" //Set two supporting squares of 5
+"wfff" //Wait until next command
+"x" //Input to continue
+// "26"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 2
+"s30s12" //Set two supporting blocks of 2
+"s04s14s24s34s44s26s36s46" //Set left and right columns of 6
+"s25s45" //Set two supporting squares of 6
+"wfff" //Wait until next command
+"x" //Input to continue
+// "27"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 2
+"s30s12" //Set two supporting blocks of 2
+"s04s34s44" //1st column of 7
+"s05s25" //2nd column of 7
+"s06s16" //3rd column of 7
+"wfff" //Wait until next command
+"x" //Input to continue
+// "28"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 2
+"s30s12" //Set two supporting blocks of 2
+"s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
+"s05s25s45" //Set middle column of 8
+"wfff" //Wait until next command
+"x" //Input to continue
+// "29"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 2
+"s30s12" //Set two supporting blocks of 2
+"s04s14s24" //Set 1st column of 9
+"s05s25" //Set 2nd column of 9
+"s06s16s26s36s46" //Set 3rd column of 9
+"wfff" //Wait until next command
+"x" //Input to continue
+// "30"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 3
+"s12s32" //Set two supporting blocks of 3
+"s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
+"s05s45" //Turn on middle column of 0
+"wfff" //Wait until next command
+"x" //Input to continue
+// "31"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 3
+"s12s32" //Set two supporting blocks of 3
+"s14s15s44s45s46" //Turn on rows of 1
+"s05s25s35" //Turn on main column of 1
+"wfff" //Wait until next command
+"x" //Input to continue
+// "32"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 3
+"s12s32" //Set two supporting blocks of 3
+"s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
+"s34s16" //Turn on two other squares of 2
+"wfff" //Wait until next command
+"x" //Input to continue
+// "33"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 3
+"s12s32" //Set two supporting blocks of 3
+"s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
+"s16s36" //Turn on supporting column of 3
+"wfff" //Wait until next command
+"x" //Input to continue
+// "34"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 3
+"s12s32" //Set two supporting blocks of 3
+"s04s14s24s06s16s26s36s46" //Set columns of 4
+"s25" //Set middle square of 4
+"wfff" //Wait until next command
+"x" //Input to continue
+// "35"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 3
+"s12s32" //Set two supporting blocks of 3
+"s04s05s06s24s25s26s44s45s46" //Set rows of 5
+"s14s36" //Set two supporting squares of 5
+"wfff" //Wait until next command
+"x" //Input to continue
+// "36"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 3
+"s12s32" //Set two supporting blocks of 3
+"s04s14s24s34s44s26s36s46" //Set left and right columns of 6
+"s25s45" //Set two supporting squares of 6
+"wfff" //Wait until next command
+"x" //Input to continue
+// "37"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 3
+"s12s32" //Set two supporting blocks of 3
+"s04s34s44" //1st column of 7
+"s05s25" //2nd column of 7
+"s06s16" //3rd column of 7
+"wfff" //Wait until next command
+"x" //Input to continue
+// "38"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 3
+"s12s32" //Set two supporting blocks of 3
+"s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
+"s05s25s45" //Set middle column of 8
+"wfff" //Wait until next command
+"x" //Input to continue
+// "39"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 3
+"s12s32" //Set two supporting blocks of 3
+"s04s14s24" //Set 1st column of 9
+"s05s25" //Set 2nd column of 9
+"s06s16s26s36s46" //Set 3rd column of 9
+"wfff" //Wait until next command
+"x" //Input to continue
+// "40"
+"e0f" //Set max brightness
+"s00s10s20s02s12s22s32s42" //Set right and left columns of 4
+"s21" //Set middle block of 4
+"s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
+"s05s45" //Turn on middle column of 0
+"wfff" //Wait until next command
+"x" //Input to continue
+// "41"
+"e0f" //Set max brightness
+"s00s10s20s02s12s22s32s42" //Set right and left columns of 4
+"s21" //Set middle block of 4
+"s14s15s44s45s46" //Turn on rows of 1
+"s05s25s35" //Turn on main column of 1
+"wfff" //Wait until next command
+"x" //Input to continue
+// "42"
+"e0f" //Set max brightness
+"s00s10s20s02s12s22s32s42" //Set right and left columns of 4
+"s21" //Set middle block of 4
+"s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
+"s34s16" //Turn on two other squares of 2
+"wfff" //Wait until next command
+"x" //Input to continue
+// "43"
+"e0f" //Set max brightness
+"s00s10s20s02s12s22s32s42" //Set right and left columns of 4
+"s21" //Set middle block of 4
+"s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
+"s16s36" //Turn on supporting column of 3
+"wfff" //Wait until next command
+"x" //Input to continue
+// "44"
+"e0f" //Set max brightness
+"s00s10s20s02s12s22s32s42" //Set right and left columns of 4
+"s21" //Set middle block of 4
+"s04s14s24s06s16s26s36s46" //Set columns of 4
+"s25" //Set middle square of 4
+"wfff" //Wait until next command
+"x" //Input to continue
+// "45"
+"e0f" //Set max brightness
+"s00s10s20s02s12s22s32s42" //Set right and left columns of 4
+"s21" //Set middle block of 4
+"s04s05s06s24s25s26s44s45s46" //Set rows of 5
+"s14s36" //Set two supporting squares of 5
+"wfff" //Wait until next command
+"x" //Input to continue
+// "46"
+"e0f" //Set max brightness
+"s00s10s20s02s12s22s32s42" //Set right and left columns of 4
+"s21" //Set middle block of 4
+"s04s14s24s34s44s26s36s46" //Set left and right columns of 6
+"s25s45" //Set two supporting squares of 6
+"wfff" //Wait until next command
+"x" //Input to continue
+// "47"
+"e0f" //Set max brightness
+"s00s10s20s02s12s22s32s42" //Set right and left columns of 4
+"s21" //Set middle block of 4
+"s04s34s44" //1st column of 7
+"s05s25" //2nd column of 7
+"s06s16" //3rd column of 7
+"wfff" //Wait until next command
+"x" //Input to continue
+// "48"
+"e0f" //Set max brightness
+"s00s10s20s02s12s22s32s42" //Set right and left columns of 4
+"s21" //Set middle block of 4
+"s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
+"s05s25s45" //Set middle column of 8
+"wfff" //Wait until next command
+"x" //Input to continue
+// "49"
+"e0f" //Set max brightness
+"s00s10s20s02s12s22s32s42" //Set right and left columns of 4
+"s21" //Set middle block of 4
+"s04s14s24" //Set 1st column of 9
+"s05s25" //Set 2nd column of 9
+"s06s16s26s36s46" //Set 3rd column of 9
+"wfff" //Wait until next command
+"x" //Input to continue
+// "50"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 5
+"s10s32" //Set two supporting blocks of 5
+"s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
+"s05s45" //Turn on middle column of 0
+"wfff" //Wait until next command
+"x" //Input to continue
+// "51"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 5
+"s10s32" //Set two supporting blocks of 5
+"s14s15s44s45s46" //Turn on rows of 1
+"s05s25s35" //Turn on main column of 1
+"wfff" //Wait until next command
+"x" //Input to continue
+// "52"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 5
+"s10s32" //Set two supporting blocks of 5
+"s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
+"s34s16" //Turn on two other squares of 2
+"wfff" //Wait until next command
+"x" //Input to continue
+// "53"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 5
+"s10s32" //Set two supporting blocks of 5
+"s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
+"s16s36" //Turn on supporting column of 3
+"wfff" //Wait until next command
+"x" //Input to continue
+// "54"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 5
+"s10s32" //Set two supporting blocks of 5
+"s04s14s24s06s16s26s36s46" //Set columns of 4
+"s25" //Set middle square of 4
+"wfff" //Wait until next command
+"x" //Input to continue
+// "55"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 5
+"s10s32" //Set two supporting blocks of 5
+"s04s05s06s24s25s26s44s45s46" //Set rows of 5
+"s14s36" //Set two supporting squares of 5
+"wfff" //Wait until next command
+"x" //Input to continue
+// "56"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 5
+"s10s32" //Set two supporting blocks of 5
+"s04s14s24s34s44s26s36s46" //Set left and right columns of 6
+"s25s45" //Set two supporting squares of 6
+"wfff" //Wait until next command
+"x" //Input to continue
+// "57"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 5
+"s10s32" //Set two supporting blocks of 5
+"s04s34s44" //1st column of 7
+"s05s25" //2nd column of 7
+"s06s16" //3rd column of 7
+"wfff" //Wait until next command
+"x" //Input to continue
+// "58"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 5
+"s10s32" //Set two supporting blocks of 5
+"s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
+"s05s25s45" //Set middle column of 8
+"wfff" //Wait until next command
+"x" //Input to continue
+// "59"
+"e0f" //Set max brightness
+"s00s01s02s20s21s22s40s41s42" //Set rows of 5
+"s10s32" //Set two supporting blocks of 5
+"s04s14s24" //Set 1st column of 9
+"s05s25" //Set 2nd column of 9
+"s06s16s26s36s46" //Set 3rd column of 9
+"wfff" //Wait until next command
+"x" //Input to continue
+// "60"
+"e0f" //Set max brightness
+"s00s10s20s30s40s22s32s42" //Set right and left columns of 6
+"s21s41" //Set middle column of 6
+"s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
+"s05s45" //Turn on middle column of 0
+"wfff" //Wait until next command
+"x" //Input to continue
+// "61"
+"e0f" //Set max brightness
+"s00s10s20s30s40s22s32s42" //Set right and left columns of 6
+"s21s41" //Set middle column of 6
+"s14s15s44s45s46" //Turn on rows of 1
+"s05s25s35" //Turn on main column of 1
+"wfff" //Wait until next command
+"x" //Input to continue
+// "62"
+"e0f" //Set max brightness
+"s00s10s20s30s40s22s32s42" //Set right and left columns of 6
+"s21s41" //Set middle column of 6
+"s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
+"s34s16" //Turn on two other squares of 2
+"wfff" //Wait until next command
+"x" //Input to continue
+// "63"
+"e0f" //Set max brightness
+"s00s10s20s30s40s22s32s42" //Set right and left columns of 6
+"s21s41" //Set middle column of 6
+"s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
+"s16s36" //Turn on supporting column of 3
+"wfff" //Wait until next command
+"x" //Input to continue
+// "64"
+"e0f" //Set max brightness
+"s00s10s20s30s40s22s32s42" //Set right and left columns of 6
+"s21s41" //Set middle column of 6
+"s04s14s24s06s16s26s36s46" //Set columns of 4
+"s25" //Set middle square of 4
+"wfff" //Wait until next command
+"x" //Input to continue
+// "65"
+"e0f" //Set max brightness
+"s00s10s20s30s40s22s32s42" //Set right and left columns of 6
+"s21s41" //Set middle column of 6
+"s04s05s06s24s25s26s44s45s46" //Set rows of 5
+"s14s36" //Set two supporting squares of 5
+"wfff" //Wait until next command
+"x" //Input to continue
+// "66"
+"e0f" //Set max brightness
+"s00s10s20s30s40s22s32s42" //Set right and left columns of 6
+"s21s41" //Set middle column of 6
+"s04s14s24s34s44s26s36s46" //Set left and right columns of 6
+"s25s45" //Set two supporting squares of 6
+"wfff" //Wait until next command
+"x" //Input to continue
+// "67"
+"e0f" //Set max brightness
+"s00s10s20s30s40s22s32s42" //Set right and left columns of 6
+"s21s41" //Set middle column of 6
+"s04s34s44" //1st column of 7
+"s05s25" //2nd column of 7
+"s06s16" //3rd column of 7
+"wfff" //Wait until next command
+"x" //Input to continue
+// "68"
+"e0f" //Set max brightness
+"s00s10s20s30s40s22s32s42" //Set right and left columns of 6
+"s21s41" //Set middle column of 6
+"s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
+"s05s25s45" //Set middle column of 8
+"wfff" //Wait until next command
+"x" //Input to continue
+// "69"
+"e0f" //Set max brightness
+"s00s10s20s30s40s22s32s42" //Set right and left columns of 6
+"s21s41" //Set middle column of 6
+"s04s14s24" //Set 1st column of 9
+"s05s25" //Set 2nd column of 9
+"s06s16s26s36s46" //Set 3rd column of 9
+"wfff" //Wait until next command
+"x" //Input to continue
+// "70"
+"e0f" //Set max brightness
+"s00s30s40" //Left column of 7
+"s01s21" //Middle column of 7
+"s02s12" //Right column of 7
+"s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
+"s05s45" //Turn on middle column of 0
+"wfff" //Wait until next command
+"x" //Input to continue
+// "71"
+"e0f" //Set max brightness
+"s00s30s40" //Left column of 7
+"s01s21" //Middle column of 7
+"s02s12" //Right column of 7
+"s14s15s44s45s46" //Turn on rows of 1
+"s05s25s35" //Turn on main column of 1
+"wfff" //Wait until next command
+"x" //Input to continue
+// "72"
+"e0f" //Set max brightness
+"s00s30s40" //Left column of 7
+"s01s21" //Middle column of 7
+"s02s12" //Right column of 7
+"s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
+"s34s16" //Turn on two other squares of 2
+"wfff" //Wait until next command
+"x" //Input to continue
+// "73"
+"e0f" //Set max brightness
+"s00s30s40" //Left column of 7
+"s01s21" //Middle column of 7
+"s02s12" //Right column of 7
+"s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
+"s16s36" //Turn on supporting column of 3
+"wfff" //Wait until next command
+"x" //Input to continue
+// "74"
+"e0f" //Set max brightness
+"s00s30s40" //Left column of 7
+"s01s21" //Middle column of 7
+"s02s12" //Right column of 7
+"s04s14s24s06s16s26s36s46" //Set columns of 4
+"s25" //Set middle square of 4
+"wfff" //Wait until next command
+"x" //Input to continue
+// "75"
+"e0f" //Set max brightness
+"s00s30s40" //Left column of 7
+"s01s21" //Middle column of 7
+"s02s12" //Right column of 7
+"s04s05s06s24s25s26s44s45s46" //Set rows of 5
+"s14s36" //Set two supporting squares of 5
 "wfff" //Wait until next command
