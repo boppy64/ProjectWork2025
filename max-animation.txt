@@ -1,0 +1,38 @@
+/* Numbering of the LED grid is 0-f in both the
+left->right direction and in the up->down direction,
+when the board is orientated so that the TUT logo is
+on the top left corner. */
+
+"e00a" //Set all LEDs off initially
+
+// "00"
+
+
+// "01"
+
+
+// "02"
+
+
+// "03"
+
+
+// "04"
+
+
+// "05"
+
+
+// "06"
+
+
+// "07"
+
+
+// "08"
+
+
+// "09"
+
+
+// "10"
