@@ -11,11 +11,11 @@ on the top left corner. */
 // "00"
 "e0f" //Set max brightness
 
-"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 1st zero
-"s01s41" //Turn on middle of 1st zero
+"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 1st 0
+"s01s41" //Turn on middle of 1st 0
 
-"s04s14s24s34s44s06s16s26s36s46" //Turn on columns of 2nd zero
-"s05s45" //Turn on middle of 2nd zero
+"s04s14s24s34s44s06s16s26s36s46" //Turn on columns of 2nd 0
+"s05s45" //Turn on middle of 2nd 0
 
 "wfff" //Wait until next command
 
@@ -25,8 +25,8 @@ on the top left corner. */
 // "01"
 "e0f" //Set max brightness
 
-"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of zero
-"s01s41" //Turn on middle of zero
+"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
+"s01s41" //Turn on middle of 0
 
 "s14s15s44s45s46" //Turn on rows of one
 "s05s25s35" //Turn on main column of one
@@ -39,10 +39,11 @@ on the top left corner. */
 // "02"
 "e0f" //Set max brightness
 
-"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of zero
-"s01s41" //Turn on middle of zero
+"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
+"s01s41" //Turn on middle of 0
 
-
+"s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
+"s34s16" //Turn on two other squares of 2
 
 "wfff" //Wait until next command
 
@@ -52,10 +53,11 @@ on the top left corner. */
 // "03"
 "e0f" //Set max brightness
 
-"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of zero
-"s01s41" //Turn on middle of zero
+"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
+"s01s41" //Turn on middle of 0
 
-
+"s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
+"s16s36" //Turn on supporting column of 3
 
 "wfff" //Wait until next command
 
@@ -65,10 +67,11 @@ on the top left corner. */
 // "04"
 "e0f" //Set max brightness
 
-"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of zero
-"s01s41" //Turn on middle of zero
+"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
+"s01s41" //Turn on middle of 0
 
-
+"s04s14s24s06s16s26s36s46" //Set columns of 4
+"s25" //Set middle square of 4
 
 "wfff" //Wait until next command
 
@@ -78,10 +81,11 @@ on the top left corner. */
 // "05"
 "e0f" //Set max brightness
 
-"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of zero
-"s01s41" //Turn on middle of zero
+"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
+"s01s41" //Turn on middle of 0
 
-
+"s04s05s06s24s25s26s44s45s46" //Set rows of 5
+"s14s36" //Set two supporting squares of 5
 
 "wfff" //Wait until next command
 
@@ -91,8 +95,8 @@ on the top left corner. */
 // "06"
 "e0f" //Set max brightness
 
-"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of zero
-"s01s41" //Turn on middle of zero
+"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
+"s01s41" //Turn on middle of 0
 
 
 
@@ -104,8 +108,8 @@ on the top left corner. */
 // "07"
 "e0f" //Set max brightness
 
-"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of zero
-"s01s41" //Turn on middle of zero
+"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
+"s01s41" //Turn on middle of 0
 
 
 
@@ -117,8 +121,8 @@ on the top left corner. */
 // "08"
 "e0f" //Set max brightness
 
-"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of zero
-"s01s41" //Turn on middle of zero
+"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
+"s01s41" //Turn on middle of 0
 
 
 
@@ -130,8 +134,8 @@ on the top left corner. */
 // "09"
 "e0f" //Set max brightness
 
-"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of zero
-"s01s41" //Turn on middle of zero
+"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
+"s01s41" //Turn on middle of 0
 
 
 
@@ -145,7 +149,7 @@ on the top left corner. */
 
 //DO ONE 
 
-"s04s14s24s34s44s06s16s26s36s46" //Turn on columns of 2nd zero
-"s05s45" //Turn on middle of 2nd zero
+"s04s14s24s34s44s06s16s26s36s46" //Turn on columns of 2nd 0
+"s05s45" //Turn on middle of 2nd 0
 
 "wfff" //Keep displaying 10 until blinker is turned off
