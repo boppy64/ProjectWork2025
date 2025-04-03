@@ -28,8 +28,8 @@ on the top left corner. */
 "s00s10s20s30s40s02s12s22s32s42" //Turn on columns of 0
 "s01s41" //Turn on middle of 0
 
-"s14s15s44s45s46" //Turn on rows of one
-"s05s25s35" //Turn on main column of one
+"s14s15s44s45s46" //Turn on rows of 1
+"s05s25s35" //Turn on main column of 1
 
 "wfff" //Wait until next command
 
@@ -160,4 +160,360 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
 "s05s45" //Turn on middle column of 0
 
-"wfff" //Keep displaying 10 until blinker is turned off
+// "11"
+"e0f" //Set max brightness
+
+
+ // "12"
+"e0f" //Set max brightness
+
+
+ // "13"
+"e0f" //Set max brightness
+
+
+ // "14"
+"e0f" //Set max brightness
+
+
+ // "15"
+"e0f" //Set max brightness
+
+
+ // "16"
+"e0f" //Set max brightness
+
+
+ // "17"
+"e0f" //Set max brightness
+
+
+ // "18"
+"e0f" //Set max brightness
+
+
+ // "19"
+"e0f" //Set max brightness
+
+
+ // "20"
+"e0f" //Set max brightness
+
+
+ // "21"
+"e0f" //Set max brightness
+
+
+ // "22"
+"e0f" //Set max brightness
+
+
+ // "23"
+"e0f" //Set max brightness
+
+
+ // "24"
+"e0f" //Set max brightness
+
+
+ // "25"
+"e0f" //Set max brightness
+
+
+ // "26"
+"e0f" //Set max brightness
+
+
+ // "27"
+"e0f" //Set max brightness
+
+
+ // "28"
+"e0f" //Set max brightness
+
+
+ // "29"
+"e0f" //Set max brightness
+
+
+ // "30"
+"e0f" //Set max brightness
+
+
+ // "31"
+"e0f" //Set max brightness
+
+
+ // "32"
+"e0f" //Set max brightness
+
+
+ // "33"
+"e0f" //Set max brightness
+
+
+ // "34"
+"e0f" //Set max brightness
+
+
+ // "35"
+"e0f" //Set max brightness
+
+
+ // "36"
+"e0f" //Set max brightness
+
+
+ // "37"
+"e0f" //Set max brightness
+
+
+ // "38"
+"e0f" //Set max brightness
+
+
+ // "39"
+"e0f" //Set max brightness
+
+
+ // "40"
+"e0f" //Set max brightness
+
+
+ // "41"
+"e0f" //Set max brightness
+
+
+ // "42"
+"e0f" //Set max brightness
+
+
+ // "43"
+"e0f" //Set max brightness
+
+
+ // "44"
+"e0f" //Set max brightness
+
+
+ // "45"
+"e0f" //Set max brightness
+
+
+ // "46"
+"e0f" //Set max brightness
+
+
+ // "47"
+"e0f" //Set max brightness
+
+
+ // "48"
+"e0f" //Set max brightness
+
+
+ // "49"
+"e0f" //Set max brightness
+
+
+ // "50"
+"e0f" //Set max brightness
+
+
+ // "51"
+"e0f" //Set max brightness
+
+
+ // "52"
+"e0f" //Set max brightness
+
+
+ // "53"
+"e0f" //Set max brightness
+
+
+ // "54"
+"e0f" //Set max brightness
+
+
+ // "55"
+"e0f" //Set max brightness
+
+
+ // "56"
+"e0f" //Set max brightness
+
+
+ // "57"
+"e0f" //Set max brightness
+
+
+ // "58"
+"e0f" //Set max brightness
+
+
+ // "59"
+"e0f" //Set max brightness
+
+
+ // "60"
+"e0f" //Set max brightness
+
+
+ // "61"
+"e0f" //Set max brightness
+
+
+ // "62"
+"e0f" //Set max brightness
+
+
+ // "63"
+"e0f" //Set max brightness
+
+
+ // "64"
+"e0f" //Set max brightness
+
+
+ // "65"
+"e0f" //Set max brightness
+
+
+ // "66"
+"e0f" //Set max brightness
+
+
+ // "67"
+"e0f" //Set max brightness
+
+
+ // "68"
+"e0f" //Set max brightness
+
+
+ // "69"
+"e0f" //Set max brightness
+
+
+ // "70"
+"e0f" //Set max brightness
+
+
+ // "71"
+"e0f" //Set max brightness
+
+
+ // "72"
+"e0f" //Set max brightness
+
+
+ // "73"
+"e0f" //Set max brightness
+
+
+ // "74"
+"e0f" //Set max brightness
+
+
+ // "75"
+"e0f" //Set max brightness
+
+
+ // "76"
+"e0f" //Set max brightness
+
+
+ // "77"
+"e0f" //Set max brightness
+
+
+ // "78"
+"e0f" //Set max brightness
+
+
+ // "79"
+"e0f" //Set max brightness
+
+
+ // "80"
+"e0f" //Set max brightness
+
+
+ // "81"
+"e0f" //Set max brightness
+
+
+ // "82"
+"e0f" //Set max brightness
+
+
+ // "83"
+"e0f" //Set max brightness
+
+
+ // "84"
+"e0f" //Set max brightness
+
+
+ // "85"
+"e0f" //Set max brightness
+
+
+ // "86"
+"e0f" //Set max brightness
+
+
+ // "87"
+"e0f" //Set max brightness
+
+
+ // "88"
+"e0f" //Set max brightness
+
+
+ // "89"
+"e0f" //Set max brightness
+
+
+ // "90"
+"e0f" //Set max brightness
+
+
+ // "91"
+"e0f" //Set max brightness
+
+
+ // "92"
+"e0f" //Set max brightness
+
+
+ // "93"
+"e0f" //Set max brightness
+
+
+ // "94"
+"e0f" //Set max brightness
+
+
+ // "95"
+"e0f" //Set max brightness
+
+
+ // "96"
+"e0f" //Set max brightness
+
+
+ // "97"
+"e0f" //Set max brightness
+
+
+ // "98"
+"e0f" //Set max brightness
+
+
+ // "99"
+"e0f" //Set max brightness
+
+
+"wfff" //Keep displaying until blinker turned off
