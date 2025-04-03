@@ -17,7 +17,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Turn on columns of 2nd 0
 "s05s45" //Turn on middle of 2nd 0
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -31,7 +31,7 @@ on the top left corner. */
 "s14s15s44s45s46" //Turn on rows of 1
 "s05s25s35" //Turn on main column of 1
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -45,7 +45,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
 "s34s16" //Turn on two other squares of 2
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -59,7 +59,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
 "s16s36" //Turn on supporting column of 3
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -73,7 +73,7 @@ on the top left corner. */
 "s04s14s24s06s16s26s36s46" //Set columns of 4
 "s25" //Set middle square of 4
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -87,7 +87,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Set rows of 5
 "s14s36" //Set two supporting squares of 5
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -101,7 +101,7 @@ on the top left corner. */
 "s04s14s24s34s44s26s36s46" //Set left and right columns of 6
 "s25s45" //Set two supporting squares of 6
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -116,7 +116,7 @@ on the top left corner. */
 "s05s25" //2nd column of 7
 "s06s16" //3rd column of 7
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -130,7 +130,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
 "s05s25s45" //Set middle column of 8
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -145,7 +145,7 @@ on the top left corner. */
 "s05s25" //Set 2nd column of 9
 "s06s16s26s36s46" //Set 3rd column of 9
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -160,7 +160,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
 "s05s45" //Turn on middle column of 0
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -174,7 +174,7 @@ on the top left corner. */
 "s14s15s44s45s46" //Turn on rows of 1
 "s05s25s35" //Turn on main column of 1
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -188,7 +188,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
 "s34s16" //Turn on two other squares of 2
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -202,7 +202,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
 "s16s36" //Turn on supporting column of 3
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -216,7 +216,7 @@ on the top left corner. */
 "s04s14s24s06s16s26s36s46" //Set columns of 4
 "s25" //Set middle square of 4
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -231,7 +231,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Set rows of 5
 "s14s36" //Set two supporting squares of 5
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -245,7 +245,7 @@ on the top left corner. */
 "s04s14s24s34s44s26s36s46" //Set left and right columns of 6
 "s25s45" //Set two supporting squares of 6
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -260,7 +260,7 @@ on the top left corner. */
 "s05s25" //2nd column of 7
 "s06s16" //3rd column of 7
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -274,7 +274,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
 "s05s25s45" //Set middle column of 8
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -289,7 +289,7 @@ on the top left corner. */
 "s05s25" //Set 2nd column of 9
 "s06s16s26s36s46" //Set 3rd column of 9
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -302,7 +302,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
 "s05s45" //Turn on middle column of 0
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -315,7 +315,7 @@ on the top left corner. */
 "s14s15s44s45s46" //Turn on rows of 1
 "s05s25s35" //Turn on main column of 1
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -328,7 +328,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
 "s34s16" //Turn on two other squares of 2
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -341,7 +341,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
 "s16s36" //Turn on supporting column of 3
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -354,7 +354,7 @@ on the top left corner. */
 "s04s14s24s06s16s26s36s46" //Set columns of 4
 "s25" //Set middle square of 4
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -367,7 +367,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Set rows of 5
 "s14s36" //Set two supporting squares of 5
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -380,7 +380,7 @@ on the top left corner. */
 "s04s14s24s34s44s26s36s46" //Set left and right columns of 6
 "s25s45" //Set two supporting squares of 6
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -394,7 +394,7 @@ on the top left corner. */
 "s05s25" //2nd column of 7
 "s06s16" //3rd column of 7
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -407,7 +407,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
 "s05s25s45" //Set middle column of 8
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -421,7 +421,7 @@ on the top left corner. */
 "s05s25" //Set 2nd column of 9
 "s06s16s26s36s46" //Set 3rd column of 9
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -434,7 +434,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
 "s05s45" //Turn on middle column of 0
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -447,7 +447,7 @@ on the top left corner. */
 "s14s15s44s45s46" //Turn on rows of 1
 "s05s25s35" //Turn on main column of 1
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -460,7 +460,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
 "s34s16" //Turn on two other squares of 2
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -473,7 +473,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
 "s16s36" //Turn on supporting column of 3
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -486,7 +486,7 @@ on the top left corner. */
 "s04s14s24s06s16s26s36s46" //Set columns of 4
 "s25" //Set middle square of 4
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -499,7 +499,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Set rows of 5
 "s14s36" //Set two supporting squares of 5
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -512,7 +512,7 @@ on the top left corner. */
 "s04s14s24s34s44s26s36s46" //Set left and right columns of 6
 "s25s45" //Set two supporting squares of 6
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -526,7 +526,7 @@ on the top left corner. */
 "s05s25" //2nd column of 7
 "s06s16" //3rd column of 7
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -539,7 +539,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
 "s05s25s45" //Set middle column of 8
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -553,7 +553,7 @@ on the top left corner. */
 "s05s25" //Set 2nd column of 9
 "s06s16s26s36s46" //Set 3rd column of 9
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -566,7 +566,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
 "s05s45" //Turn on middle column of 0
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -579,7 +579,7 @@ on the top left corner. */
 "s14s15s44s45s46" //Turn on rows of 1
 "s05s25s35" //Turn on main column of 1
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -592,7 +592,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
 "s34s16" //Turn on two other squares of 2
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -605,7 +605,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
 "s16s36" //Turn on supporting column of 3
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -618,7 +618,7 @@ on the top left corner. */
 "s04s14s24s06s16s26s36s46" //Set columns of 4
 "s25" //Set middle square of 4
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -631,7 +631,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Set rows of 5
 "s14s36" //Set two supporting squares of 5
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -644,7 +644,7 @@ on the top left corner. */
 "s04s14s24s34s44s26s36s46" //Set left and right columns of 6
 "s25s45" //Set two supporting squares of 6
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -658,7 +658,7 @@ on the top left corner. */
 "s05s25" //2nd column of 7
 "s06s16" //3rd column of 7
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -671,7 +671,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
 "s05s25s45" //Set middle column of 8
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -685,7 +685,7 @@ on the top left corner. */
 "s05s25" //Set 2nd column of 9
 "s06s16s26s36s46" //Set 3rd column of 9
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -698,7 +698,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
 "s05s45" //Turn on middle column of 0
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -711,7 +711,7 @@ on the top left corner. */
 "s14s15s44s45s46" //Turn on rows of 1
 "s05s25s35" //Turn on main column of 1
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -724,7 +724,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
 "s34s16" //Turn on two other squares of 2
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -737,7 +737,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
 "s16s36" //Turn on supporting column of 3
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -750,7 +750,7 @@ on the top left corner. */
 "s04s14s24s06s16s26s36s46" //Set columns of 4
 "s25" //Set middle square of 4
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -763,7 +763,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Set rows of 5
 "s14s36" //Set two supporting squares of 5
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -776,7 +776,7 @@ on the top left corner. */
 "s04s14s24s34s44s26s36s46" //Set left and right columns of 6
 "s25s45" //Set two supporting squares of 6
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -790,7 +790,7 @@ on the top left corner. */
 "s05s25" //2nd column of 7
 "s06s16" //3rd column of 7
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -803,7 +803,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
 "s05s25s45" //Set middle column of 8
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -817,7 +817,7 @@ on the top left corner. */
 "s05s25" //Set 2nd column of 9
 "s06s16s26s36s46" //Set 3rd column of 9
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -830,7 +830,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
 "s05s45" //Turn on middle column of 0
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -843,7 +843,7 @@ on the top left corner. */
 "s14s15s44s45s46" //Turn on rows of 1
 "s05s25s35" //Turn on main column of 1
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -856,7 +856,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
 "s34s16" //Turn on two other squares of 2
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -869,7 +869,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
 "s16s36" //Turn on supporting column of 3
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -882,7 +882,7 @@ on the top left corner. */
 "s04s14s24s06s16s26s36s46" //Set columns of 4
 "s25" //Set middle square of 4
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -895,7 +895,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Set rows of 5
 "s14s36" //Set two supporting squares of 5
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -908,7 +908,7 @@ on the top left corner. */
 "s04s14s24s34s44s26s36s46" //Set left and right columns of 6
 "s25s45" //Set two supporting squares of 6
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -922,7 +922,7 @@ on the top left corner. */
 "s05s25" //2nd column of 7
 "s06s16" //3rd column of 7
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -935,7 +935,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
 "s05s25s45" //Set middle column of 8
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -949,7 +949,7 @@ on the top left corner. */
 "s05s25" //Set 2nd column of 9
 "s06s16s26s36s46" //Set 3rd column of 9
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -963,7 +963,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
 "s05s45" //Turn on middle column of 0
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -977,7 +977,7 @@ on the top left corner. */
 "s14s15s44s45s46" //Turn on rows of 1
 "s05s25s35" //Turn on main column of 1
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -991,7 +991,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
 "s34s16" //Turn on two other squares of 2
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1005,7 +1005,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
 "s16s36" //Turn on supporting column of 3
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1019,7 +1019,7 @@ on the top left corner. */
 "s04s14s24s06s16s26s36s46" //Set columns of 4
 "s25" //Set middle square of 4
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1033,7 +1033,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Set rows of 5
 "s14s36" //Set two supporting squares of 5
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1047,7 +1047,7 @@ on the top left corner. */
 "s04s14s24s34s44s26s36s46" //Set left and right columns of 6
 "s25s45" //Set two supporting squares of 6
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1062,7 +1062,7 @@ on the top left corner. */
 "s05s25" //2nd column of 7
 "s06s16" //3rd column of 7
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1076,7 +1076,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
 "s05s25s45" //Set middle column of 8
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1091,7 +1091,7 @@ on the top left corner. */
 "s05s25" //Set 2nd column of 9
 "s06s16s26s36s46" //Set 3rd column of 9
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1104,7 +1104,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
 "s05s45" //Turn on middle column of 0
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1117,7 +1117,7 @@ on the top left corner. */
 "s14s15s44s45s46" //Turn on rows of 1
 "s05s25s35" //Turn on main column of 1
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1130,7 +1130,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
 "s34s16" //Turn on two other squares of 2
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1143,7 +1143,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
 "s16s36" //Turn on supporting column of 3
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1156,7 +1156,7 @@ on the top left corner. */
 "s04s14s24s06s16s26s36s46" //Set columns of 4
 "s25" //Set middle square of 4
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1169,7 +1169,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Set rows of 5
 "s14s36" //Set two supporting squares of 5
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1182,7 +1182,7 @@ on the top left corner. */
 "s04s14s24s34s44s26s36s46" //Set left and right columns of 6
 "s25s45" //Set two supporting squares of 6
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1196,7 +1196,7 @@ on the top left corner. */
 "s05s25" //2nd column of 7
 "s06s16" //3rd column of 7
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1209,7 +1209,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
 "s05s25s45" //Set middle column of 8
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1223,7 +1223,7 @@ on the top left corner. */
 "s05s25" //Set 2nd column of 9
 "s06s16s26s36s46" //Set 3rd column of 9
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1236,7 +1236,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Turn on right and left columns of 0
 "s05s45" //Turn on middle column of 0
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1249,7 +1249,7 @@ on the top left corner. */
 "s14s15s44s45s46" //Turn on rows of 1
 "s05s25s35" //Turn on main column of 1
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1262,7 +1262,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 2
 "s34s16" //Turn on two other squares of 2
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1275,7 +1275,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Turn on rows of 3
 "s16s36" //Turn on supporting column of 3
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1288,7 +1288,7 @@ on the top left corner. */
 "s04s14s24s06s16s26s36s46" //Set columns of 4
 "s25" //Set middle square of 4
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1301,7 +1301,7 @@ on the top left corner. */
 "s04s05s06s24s25s26s44s45s46" //Set rows of 5
 "s14s36" //Set two supporting squares of 5
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1314,7 +1314,7 @@ on the top left corner. */
 "s04s14s24s34s44s26s36s46" //Set left and right columns of 6
 "s25s45" //Set two supporting squares of 6
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1328,7 +1328,7 @@ on the top left corner. */
 "s05s25" //2nd column of 7
 "s06s16" //3rd column of 7
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1341,7 +1341,7 @@ on the top left corner. */
 "s04s14s24s34s44s06s16s26s36s46" //Set left and right columns of 8
 "s05s25s45" //Set middle column of 8
 
-"wfff" //Wait until next command
+"wffff" //Wait until next command
 
 "x" //Input to continue
 
@@ -1355,4 +1355,4 @@ on the top left corner. */
 "s05s25" //Set 2nd column of 9
 "s06s16s26s36s46" //Set 3rd column of 9
 
-"wfff" //Keep displaying until blinker turned off
+"wffff" //Keep displaying until blinker turned off
