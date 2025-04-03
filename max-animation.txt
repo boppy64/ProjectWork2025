@@ -43,11 +43,23 @@ on the top left corner. */
 "s01s41" //Turn on middle of zero
 
 
+
+"wfff" //Wait until next command
+
+"x" //Input to continue
+
+
 // "03"
 "e0f" //Set max brightness
 
 "s00s10s20s30s40s02s12s22s32s42" //Turn on columns of zero
 "s01s41" //Turn on middle of zero
+
+
+
+"wfff" //Wait until next command
+
+"x" //Input to continue
 
 
 // "04"
@@ -57,11 +69,23 @@ on the top left corner. */
 "s01s41" //Turn on middle of zero
 
 
+
+"wfff" //Wait until next command
+
+"x" //Input to continue
+
+
 // "05"
 "e0f" //Set max brightness
 
 "s00s10s20s30s40s02s12s22s32s42" //Turn on columns of zero
 "s01s41" //Turn on middle of zero
+
+
+
+"wfff" //Wait until next command
+
+"x" //Input to continue
 
 
 // "06"
@@ -71,11 +95,23 @@ on the top left corner. */
 "s01s41" //Turn on middle of zero
 
 
+
+"wfff" //Wait until next command
+
+"x" //Input to continue
+
+
 // "07"
 "e0f" //Set max brightness
 
 "s00s10s20s30s40s02s12s22s32s42" //Turn on columns of zero
 "s01s41" //Turn on middle of zero
+
+
+
+"wfff" //Wait until next command
+
+"x" //Input to continue
 
 
 // "08"
@@ -85,6 +121,12 @@ on the top left corner. */
 "s01s41" //Turn on middle of zero
 
 
+
+"wfff" //Wait until next command
+
+"x" //Input to continue
+
+
 // "09"
 "e0f" //Set max brightness
 
@@ -92,10 +134,18 @@ on the top left corner. */
 "s01s41" //Turn on middle of zero
 
 
+
+"wfff" //Wait until next command
+
+"x" //Input to continue
+
+
 // "10"
 "e0f" //Set max brightness
 
 //DO ONE 
 
-"s00s10s20s30s40s02s12s22s32s42" //Turn on columns of zero
-"s01s41" //Turn on middle of zero
+"s04s14s24s34s44s06s16s26s36s46" //Turn on columns of 2nd zero
+"s05s45" //Turn on middle of 2nd zero
+
+"wfff" //Keep displaying 10 until blinker is turned off
